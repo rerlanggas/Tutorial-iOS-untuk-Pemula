@@ -1,14 +1,14 @@
 //
-//  ViewController2.swift
+//  RootNavigationViewController.swift
 //  Tutorial Fundamental
 //
-//  Created by Rian Erlangga Saputra on 28/06/20.
+//  Created by Rian Erlangga Saputra on 29/06/20.
 //  Copyright © 2020 rerlanggas. All rights reserved.
 //
 
 import UIKit
 
-class ViewController2: UIViewController {
+class RootNavigationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,10 +16,15 @@ class ViewController2: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func backTapped(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func moveWithCodeTapped(_ sender: Any) {
+        
+        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "viewControllerHijau")
+        navigationController?.pushViewController(viewController, animated: true)
     }
     
+    @IBAction func unwindToRoot(_ sender: UIStoryboardSegue) {
+        
+    }
     /*
     // MARK: - Navigation
 

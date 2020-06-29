@@ -14,6 +14,7 @@
 		B9306DCC24A843E4004A66EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9306DCB24A843E4004A66EC /* Assets.xcassets */; };
 		B9306DCF24A843E4004A66EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9306DCD24A843E4004A66EC /* LaunchScreen.storyboard */; };
 		B9306DD724A847BC004A66EC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9306DD624A847BC004A66EC /* ViewController2.swift */; };
+		B94181BD24AA372000D775D2 /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94181BC24AA372000D775D2 /* RootNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B9306DCE24A843E4004A66EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9306DD024A843E4004A66EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9306DD624A847BC004A66EC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B94181BC24AA372000D775D2 /* RootNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B9306DC424A843E0004A66EC /* SceneDelegate.swift */,
 				B9306DC624A843E0004A66EC /* ViewController.swift */,
 				B9306DD624A847BC004A66EC /* ViewController2.swift */,
+				B94181BC24AA372000D775D2 /* RootNavigationViewController.swift */,
 				B9306DC824A843E0004A66EC /* Main.storyboard */,
 				B9306DCB24A843E4004A66EC /* Assets.xcassets */,
 				B9306DCD24A843E4004A66EC /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				B9306DD724A847BC004A66EC /* ViewController2.swift in Sources */,
 				B9306DC324A843E0004A66EC /* AppDelegate.swift in Sources */,
 				B9306DC524A843E0004A66EC /* SceneDelegate.swift in Sources */,
+				B94181BD24AA372000D775D2 /* RootNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
